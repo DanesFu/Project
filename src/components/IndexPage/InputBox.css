@@ -1,0 +1,73 @@
+*{
+    list-style-type:none
+}
+.am-list-item {
+    border-bottom: 5px black solid;
+}
+.banner{
+    width:calc(93%);
+    height:9.5rem;
+    background: rgba(6, 231, 24, 0.911);
+    border-radius: 0.5rem
+}
+.bannerWarp,.icon li,.ai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 0.81rem;
+    font-weight:300;
+    color:rgba(115,115,115,1);
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.icon li{
+    width:calc(25%);
+    height:3rem;
+    float: left;
+}
+.icon li div img{
+    width:3rem;
+    height:3rem;
+    display: block
+}
+.icon2 li{
+    width:calc(25%);
+    height:3rem;
+    padding-top:2rem;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2 li div img{
+    width:3rem;
+    height:3rem;
+    display: block
+}
+.icon2 li div p,.icon li div p{
+    padding-top:0.2rem;
+    color:rgba(48,50,64,1);
+}
+.pic{
+    margin-top:1.5rem;
+    height:10rem
+}
+.ai{
+    height:5.5rem;
+    position: relative;
+}
+.ai img{
+    width:calc(93%);
+    height:4.5rem;
+}
+.ai p{
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    font-weight:400;
+}
+.ai p span{
+    padding:0.5rem
+}

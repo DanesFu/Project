@@ -1,0 +1,36 @@
+.footer{
+    height:3rem;
+    width:calc(100%);
+    box-shadow:0rem 0rem 1rem 0rem rgba(242,242,242,0.63);
+    position: fixed;
+    bottom: 0px;
+    background: #fff;
+}
+.footer>ul>li{
+    width:calc(33%);
+    height:3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.footer>ul>li:nth-child(1) img,.footer>ul>li:nth-child(3) img{
+    width:1.5rem;
+}
+.footer>ul>li:nth-child(2){
+    position: relative;
+}
+.footer li:nth-child(2) img{
+    width:2.5rem;
+    height:3rem;
+    position: absolute;
+    top:-1rem;
+}
+.footer li span{
+    font-weight:400;
+    color:rgba(136,140,150,1);
+    font-size: 0.7rem;
+}
+.footer li{
+    text-align: center
+}

@@ -1,0 +1,53 @@
+.bottom{
+    height:4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.warp{
+    height:20rem;
+    background: #666
+}
+.tit{
+    float:left;
+    margin-left:0.8rem;
+    padding-top:2rem
+}
+.tit span{
+    color:#A4A3A3
+}
+.titRight{
+    float:right;
+    margin-right:0.5rem;
+    padding-top:2rem
+}
+.banner{
+    padding-bottom: 0.8rem;
+}
+.banner img{
+    width:calc(93%);
+    height:10.5rem;
+    margin-left: 3.5%
+}
+.text{
+    margin-left: 3.5%;
+    line-height: 1.4rem
+}
+.text li:nth-child(1),.text li:nth-child(2),.text li:nth-child(3){
+    font-family:PingFangSC-Regular;
+}
+.text li:nth-child(1){
+    font-weight:400;
+    color:rgba(167,175,191,1);
+    font-size: 14px;
+}
+.text li:nth-child(2){
+    font-weight:400;
+    color:rgba(61,63,70,1);
+    font-size: 16px;
+}
+.text li:nth-child(3){
+    font-weight:400;
+color:rgba(124,128,144,1);
+}
